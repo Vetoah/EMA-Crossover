@@ -1,0 +1,21 @@
+[package]
+name = "tradebot_v1"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = { version = "0.11", features = ["json"] } # reqwest with JSON parsing support
+futures = "0.3" # for our async / await blocks
+tokio = { version = "1.12.0", features = ["full"] } # for our async runtime
+base64-url = "1.4.13"
+ring = "0.16.20"
+hmac = "0.12.1"
+base64 = "0.13.0"
+sha2 = "0.10.2"
+rust-crypto = "0.2.36"
+hex = "0.4.3"
+chrono = "0.4.24"
+
+serde_json = "1.0.81"
