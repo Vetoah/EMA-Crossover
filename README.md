@@ -4,7 +4,7 @@ This was a variation of the EMA crossover strategy that I built with Rust. It ne
 The market data is coming from the Phemex crypto exchange. Here is there [API](https://github.com/phemex/phemex-api-docs/blob/master/Public-Contract-API-en.md)
 
 ## How to run
-I do this through VS Code, so things may be different on your end. Would recommend installing [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer).
+I did this through VS Code, so things may be different on your end. Would recommend installing [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer).
 1. Install [cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html)
 2. Clone this repo.
 4. Open this folder in VS Code (the root, not 'src').
